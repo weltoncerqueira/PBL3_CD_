@@ -1,0 +1,9 @@
+
+module plano_cartesiano (
+    input clk,                // Clock de 50MHz da placa DE10-Lite
+    input btn_reset,          // Botão de reset
+    output VGA_HS, VGA_VS,    // Pinos de sincronismo do conector VGA
+    output [3:0] VGA_R,       // Pinos Vermelhos (4 bits)
+    output [3:0] VGA_G,       // Pinos Verdes (4 bits)
+    output [3:0] VGA_B        // Pinos Azuis (4 bits)
+);
